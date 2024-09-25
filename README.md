@@ -11,7 +11,8 @@
             color: #333;
             text-align: center;
             padding: 20px;
-            overflow: hidden;
+            /* Remove the overflow hidden to allow scrolling */
+            overflow: auto;
         }
         h1 {
             color: #ff5733;
@@ -192,12 +193,11 @@
     </div>
 
     <div class="hidden-surprise" id="surprise">
-        🎉 Surprise! You've discovered a hidden gem! Keep shining, future legends! 🌟
+        🎉 Surprise! You've discovered the hidden fun fact generator! 🎉
     </div>
 
     <script>
         const funFacts = [
-            "Did you know? The average human laughs 13 times a day!",
             "Fun fact: Honey never spoils!",
             "Did you know? Bananas are berries, but strawberries aren't!",
             "Fun fact: A group of flamingos is called a 'flamboyance'!",
@@ -232,4 +232,5 @@
     </script>
 </body>
 </html>
+
 
